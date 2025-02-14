@@ -43,6 +43,8 @@
 
     --clr-list-elem: #f0f0f0;
     --clr-header-bck: #ffffff99;
+
+    --logo-size:30px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -396,6 +398,7 @@ footer {
     margin-block: 10px;
     display: none;
 }
+
 
 
 @keyframes l6 {
