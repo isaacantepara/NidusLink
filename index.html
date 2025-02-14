@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="NidusLink: Discover your niche market.">
+    <title>NexusPoint - Innovación Digital | Accede Ahora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="mainLogo" id="brandHeader" translate="no">NidusLink</h1>
+        <a href="#accessForm" class="actionBtn">
+            <img src="email.png" alt="Accede a NexusPoint">
+            Join
+        </a>
+    </header>
+
+    <main>
+        <h2 class="topTitle" id="headline"></h2>
+        <h3 id="mainDescription"></h3>
+    </main>
+
+    <section id="dataZone" class="featureColumns">
+        <div class="featureRow" id="infoGroup1">
+            <div class="boxElement featureItem" id="feature1_section1"></div>
+            <div class="boxElement featureItem" id="feature2_section1"></div>
+        </div>
+
+        <div class="featureRow" id="infoGroup2">
+            <div class="subFeatureColumns" id="detailsContainer">
+                <div class="boxElement subFeatureItem" id="feature2_section2"></div>
+                <div class="boxElement subFeatureItem" id="feature3_section2"></div>
+            </div>
+            <div class="boxElement">
+                <div class="subFeatureColumns largeStyle" id="coreContent">
+                    <div id="feature1_section2"></div>
+                    <div class="subFeatureColumns" id="clientQuotes">
+                        <div class="quoteScroll">
+                            <div class="quoteWrapper" id="quotesPart1"></div>
+                        </div>
+                        <div class="quoteScroll">
+                            <div class="quoteWrapper" id="quotesPart2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="accessForm">
+        <div class="boxElement light solo">
+            <form class="entryForm" id="emailEntry">
+                <h4 class="subTitle" id="formTitle"></h4>
+                <p id="formDescription"></p>
+                <input id="emailAddress" name="emailAddress" type="email" autocomplete="email" placeholder="Enter your email"  required>
+                <button id="registerButton" type="submit"></button>
+                <div class="loader" id="spinnLoader"></div>
+            </form>
+        </div>
+        <p id="responseMessage" class="alert"></p>
+
+    </section>
+
+    <footer>
+        <p>© 2025 CeresiamLab. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
